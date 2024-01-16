@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "a backend of the youtube clone webapp",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run index.js",
+    "dev": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/SumitPanwar0007/ChaiYoutube/issues"
   },
-  "homepage": "https://github.com/SumitPanwar0007/ChaiYoutube#readme"
+  "homepage": "https://github.com/SumitPanwar0007/ChaiYoutube#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "prettier": "^3.2.2"
+  }
 }
